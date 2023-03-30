@@ -1,7 +1,6 @@
 package Problems;
 
 import GA.Entities.Evaluable;
-import GA.Entities.GeneInit;
 import GA.GeneticAlgorithm;
 import GA.Options.Crossover;
 import GA.Options.Mutation;
@@ -9,13 +8,12 @@ import GA.Options.Selection;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Locale;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static GA.Options.Crossover.CrossoverMethod.*;
+import static GA.Options.Crossover.CrossoverMethod.UNIFORM;
 import static GA.Options.Mutation.MutationMethod.SWAP;
-import static GA.Options.Selection.SelectionMethod.*;
+import static GA.Options.Selection.SelectionMethod.RANK;
 import static GA.Options.Variables.*;
 
 public class TextMatching {

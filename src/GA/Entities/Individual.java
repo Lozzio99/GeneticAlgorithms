@@ -1,9 +1,8 @@
 package GA.Entities;
 
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
-import static GA.Options.Variables.*;
+import static GA.Options.Variables.geneInitializer;
 
 public class Individual implements Comparable<Individual> {
     private int[] chromosome;

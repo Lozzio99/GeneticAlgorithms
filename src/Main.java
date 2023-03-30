@@ -5,7 +5,6 @@ import GA.Options.Crossover;
 import GA.Options.Crossover.CrossoverMethod;
 import GA.Options.Mutation;
 import GA.Options.Mutation.MutationMethod;
-import GA.Options.Selection;
 import GA.Options.Selection.SelectionMethod;
 import GA.Options.Variables;
 import Problems.Knapsack;

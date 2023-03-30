@@ -13,7 +13,6 @@ import static GA.Options.Crossover.CrossoverMethod.UNIFORM;
 import static GA.Options.Mutation.MutationMethod.BITFLIP;
 import static GA.Options.Selection.SelectionMethod.RANK;
 import static GA.Options.Variables.*;
-import static java.lang.Math.floor;
 
 public class Knapsack {
 

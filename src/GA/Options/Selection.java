@@ -4,7 +4,6 @@ import GA.Entities.Individual;
 import GA.Entities.Population;
 
 import java.util.Arrays;
-import java.util.Random;
 
 import static GA.Options.Variables.*;
 

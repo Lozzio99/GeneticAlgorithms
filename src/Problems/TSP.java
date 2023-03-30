@@ -13,7 +13,6 @@ import static GA.Options.Crossover.CrossoverMethod.TSP_TWO_POINT;
 import static GA.Options.Mutation.MutationMethod.SWAP;
 import static GA.Options.Selection.SelectionMethod.TOURNAMENT;
 import static GA.Options.Variables.*;
-import static java.util.Collections.shuffle;
 
 public class TSP {
     public static int numCities = 30;

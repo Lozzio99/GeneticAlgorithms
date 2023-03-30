@@ -1,12 +1,10 @@
 package Problems;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.IntStream;
 
 import static GA.Options.Variables.genes;
-import static Problems.TSP.*;
+import static Problems.TSP.distanceMatrix;
 
 public class NearestNeighborSolver {
 
